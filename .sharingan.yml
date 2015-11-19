@@ -1,2 +1,3 @@
 script:
- - stack install
+ - cd Cabal && cabal install
+ - cd cabal-install && cabal install
